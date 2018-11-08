@@ -74,7 +74,7 @@
                     </div>
                     
                     <div class="first-button ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s">
-                        <a href="https://bigoo.io/download/bigoo.apk" class="android_button" >
+                        <a href="" class="android_button" >
                             <div class="button_solid"></div>
                             <span>安卓版下载</span>
                             <!-- <span>敬请期待</span> -->
@@ -185,13 +185,16 @@
 
             $(".android_button").mouseover(function(){
                 $(".android_button span").css("border-left","1px solid #fff")
+                $(".android_button span").text("敬请期待")
             });
             $(".android_button").mouseout(function(){
                 $(".android_button span").css("border-left","1px solid #858585")
+                $(".android_button span").text("安卓版下载")
             })
             $(".ios_button").mouseover(function(){
                 $(".ios_button span").css("border-left","1px solid #fff")
-                $(".ios_button span").text("iOS 版下载")
+                // $(".ios_button span").text("iOS 版下载")
+                $(".ios_button span").text("敬请期待")
             });
             $(".ios_button").mouseout(function(){
                 $(".ios_button span").css("border-left","1px solid #858585")
