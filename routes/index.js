@@ -13,9 +13,9 @@ router.get('/h5', function(req, res, next) {
   res.render('mobile', { title: 'Express' });
 });
 // 下载页
-router.get('/downloads', function(req, res, next) {
-  res.render('download', { title: 'Express' });
-});
+// router.get('/downloads', function(req, res, next) {
+//   res.render('download', { title: 'Express' });
+// });
 
 
 module.exports = router;
