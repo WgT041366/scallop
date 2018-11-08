@@ -92,7 +92,7 @@ a:hover,a:active,a:focus{
 
 /*修改圆点颜色*/
 .swiper-pagination-bullet{
-    background-color: #11cced;
+    background-color: #ef6842;
     opacity: 1;
 }
 /*选中圆点样式*/
@@ -115,7 +115,7 @@ a:hover,a:active,a:focus{
     margin-top: -135px;
     height: 270px;
     width: 1px;
-    background-color: #11cced;
+    background-color: #ef6842;
     z-index: 1;
 }
 
