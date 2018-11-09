@@ -28,17 +28,7 @@
 	        	});
 	        }
  
-		    $.ajax({
-		        url: 'https://huodong.bigoo.io/roulette/v1/user/downloadCount',
-		        type: 'GET',
-		        dataType: 'json',
-		        success:function(res){
-		            console.log(res.data.count);
-		            var cont = '当前下载人数：' + res.data.count + ' 人';
-		            $('.download_person').text(cont);
-		        },
-
-		    });
+		    
 
 
 		}())
