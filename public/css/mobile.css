@@ -87,7 +87,7 @@ a:hover,a:active,a:focus{
     
 }
 .center_android_left{
-    background: url('/images/mobile/andorid.png') no-repeat center center;
+    background: url('/images/andorid.png') no-repeat center center;
 }
 .center_ios_left{
     background: url('/images/mobile/ios.png') no-repeat center center;
